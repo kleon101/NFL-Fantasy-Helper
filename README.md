@@ -15,10 +15,10 @@ Use the following commands on a VM.
 8. sudo chmod -R 777 nbs/
 9. docker-compose up -d
 10. To upload the data files into HDFS run the following (Ensure to substitute <container_id> with the namenode container ID):
-    docker ps
-    docker exec <container_id> hdfs dfs -put /home/nbs/Career_Receiving_Stats.csv /Career_Receiving_Stats.csv
-    docker exec <container_id> hdfs dfs -put /home/nbs/Career_Stats_Rushing.csv /Career_Stats_Rushing.csv
-    docker exec <container_id> hdfs dfs -put /home/nbs/Career_Stats_Passing.csv /Career_Stats_Passing.csv
+    docker ps<br/>
+    docker exec <container_id> hdfs dfs -put /home/nbs/Career_Receiving_Stats.csv /Career_Receiving_Stats.csv<br/>
+    docker exec <container_id> hdfs dfs -put /home/nbs/Career_Stats_Rushing.csv /Career_Stats_Rushing.csv<br/>
+    docker exec <container_id> hdfs dfs -put /home/nbs/Career_Stats_Passing.csv /Career_Stats_Passing.csv<br/>
 
-Now you can access HDFS web interface through: http://external_ip/explorer.html
+Now you can access HDFS web interface through: http://external_ip/explorer.html<br/>
 Now you can access the project application on Jupyter Notebook via: http://external_ip:8888
