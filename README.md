@@ -1,6 +1,8 @@
 # NFL-Fantasy-Helper
 Cloud Computing Project - Data Analysis | Apache Spark Framework, Hadoop Distributed File System, Google Cloud Platform
 
+**View the Jupyter Notebook to find the SparkSQL data analysis tasks performed.**
+
 Use the following commands on a VM. 
 
 1. cd project (or you can call it whatever you would like to)
